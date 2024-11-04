@@ -1,5 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @Title: DuplicateNumbersXOR
@@ -75,7 +73,7 @@ public class DuplicateNumbersXOR {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,1,3};
+        int[] nums = {1, 2, 1, 3};
         System.out.println(new DuplicateNumbersXOR().duplicateNumbersXOR(nums));
     }
 
